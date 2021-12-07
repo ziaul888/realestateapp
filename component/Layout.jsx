@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Head from "next/head"
 import {Box} from "@chakra-ui/react"
 
@@ -15,6 +15,9 @@ import {Box} from "@chakra-ui/react"
              <main>
                  {Children}
              </main>
+             <footer>
+                 footer
+             </footer>
          </Box>
         </>
     )
