@@ -29,7 +29,9 @@ const Search = ({ properties }) => {
         <Icon paddingLeft="2" w="7" as={BsFilter} />
       </Flex>
       {searchFilters && <SearchFilter />}
-      <Text>property {router.query.purpose}</Text>
+      <Text fontSize="2xl" p="4" fontWeight="bold">
+        Properties {router.query.purpose}
+      </Text>
       <Flex flexWrap="wrap">
         {properties?.map((property) => (
           <Property property={property} key={property.id} />
