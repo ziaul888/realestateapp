@@ -59,7 +59,7 @@ export default function Home({ propertyForRent, propertyForSale }) {
           desc1=" Explore Apartments, villas, Homes"
           desc2="and more"
           buttonText="Explore Renting "
-          linkName="/Search?purpose=for-rent"
+          linkName="/search?purpose=for-sale"
           imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
         />
         <Flex flexWrap="wrap">
@@ -74,7 +74,7 @@ export default function Home({ propertyForRent, propertyForSale }) {
           desc1=" Explore Apartments, villas, Homes"
           desc2="and more"
           buttonText="Explore Renting "
-          linkName="/Search?purpose=for-rent"
+          linkName="/search?purpose=for-rent"
           imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4
        "
         />
