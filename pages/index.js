@@ -17,7 +17,7 @@ const Banner = ({
   imageUrl,
 }) => (
   <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="10">
-    <Image src={DefaultImage} width={800} height={300} alt="banner" />
+    <Image src={DefaultImage} width={500} height={300} alt="banner" />
     <Box p="5">
       <Text color="gary.500" fontSize="sm" fontWeight="medium">
         {purpose}
